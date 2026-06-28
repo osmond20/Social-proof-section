@@ -93,6 +93,7 @@ body{
     padding: 1.25rem;
     gap: 1.875rem;
     margin-top: 4.06rem;
+    margin-bottom: 4.06rem;
 }
 
 .heading-paragraph-container{
@@ -203,7 +204,7 @@ body{
     line-height: 1.3em;
 }
 
-@media(min-width:40rem){
+@media(min-width:70rem){
     body{
         background-image:  url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
         background-position: top left, bottom right;
