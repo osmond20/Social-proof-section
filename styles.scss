@@ -178,7 +178,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.44rem;
-    font-size: 1rem;
+    font-size: clamp(1rem, 0vw + 1rem, 1rem);
 }
 
 .image-of-buyer{
