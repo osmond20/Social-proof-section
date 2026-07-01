@@ -106,7 +106,7 @@ body{
     text-align: center;
     font-size: clamp(2.4rem, 1.033vw + 2.013rem, 3.5rem);
     line-height: 0.8em;
-    margin-bottom: calc(1.4rem + 0.5vw);
+    margin-block: calc(1.4rem + 0.5vw);
 }
 
 .paragraph{
@@ -257,11 +257,11 @@ body{
 
     }
 
-    #rating-2{
+    .rating:nth-child(2){
         margin-left: calc(48 / 16 * 1rem);
     }
 
-    #rating-3{
+    .rating:nth-child(3){
         margin-left:  calc(92.48 / 16 * 1rem);
     }
 
@@ -286,11 +286,11 @@ body{
         padding:  calc(35 / 16 * 1rem);
     }
 
-    #testimony-2{
+    .testimony:nth-child(2){
         margin-top:  calc(16 / 16 * 1rem);
     }
 
-    #testimony-3{
+    .testimony:nth-child(3){
         margin-top: calc(32.48 / 16 * 1rem);
     }
 

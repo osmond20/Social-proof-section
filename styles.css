@@ -92,8 +92,7 @@ body {
   width: 23.44rem;
   padding: 1.25rem;
   gap: 1.875rem;
-  margin-top: calc(var(--spacing-xs) + 1rem);
-  margin-bottom: calc(var(--spacing-xs) + 1rem);
+  margin-block: calc(var(--spacing-xs) + 1rem);
 }
 
 .heading-paragraph-container {
@@ -215,8 +214,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 90rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-block: 0;
     height: inherit;
     padding: 3.125rem;
   }
@@ -251,10 +249,10 @@ body {
     align-items: center;
     gap: 2.34rem;
   }
-  #rating-2 {
+  .rating:nth-child(2) {
     margin-left: 3rem;
   }
-  #rating-3 {
+  .rating:nth-child(3) {
     margin-left: 5.78rem;
   }
   .star-icons {
