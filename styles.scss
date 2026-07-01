@@ -93,7 +93,7 @@ body{
     width: 23.44rem;
     padding: calc(20 / 16 * 1rem);
     gap: 1.875rem;
-    margin-block: calc(var(--spacing-xs) + 1rem);
+    margin-block-start: calc(var(--spacing-xs) + 1rem);
 }
 
 .heading-paragraph-container{
@@ -115,7 +115,7 @@ body{
     text-align: center;
     line-height: 1.4em;
     font-size: 1.1rem;
-    margin-top: calc(6.24 / 16 * 1rem);
+    margin-block-start: calc(6.24 / 16 * 1rem);
 }
 
 .ratings-container{
@@ -123,7 +123,7 @@ body{
     flex-direction: column;
     gap: 1.25rem;
     width: 100%;
-    margin-top: calc(10 / 16 * 1rem);
+    margin-block-start: calc(10 / 16 * 1rem);
 }
 
 .rating{
@@ -154,7 +154,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.94rem;
-    margin-top: calc(20 / 16 * 1rem);
+    margin-block-start: calc(20 / 16 * 1rem);
 }
 
 .testimony{
@@ -228,8 +228,8 @@ body{
         justify-content: end;
         align-items: end;
         width: 26.56rem;
-        margin-left:  calc(115.04 / 16 * 1rem);
-        padding-bottom: calc(15.04 / 16 * 1rem);
+        margin-inline-start:  calc(115.04 / 16 * 1rem);
+        padding-block-end: calc(15.04 / 16 * 1rem);
     }
 
     .heading, .paragraph{
@@ -242,7 +242,7 @@ body{
         height: 100%;
         width: 100%;
         justify-content: end;
-        padding-bottom: calc(27.504 / 16 * 1rem);
+        padding-block-end: calc(27.504 / 16 * 1rem);
         gap:0.94rem;
     }
 
@@ -251,18 +251,18 @@ body{
       flex-direction: row;
       justify-content: start;
       width: 27.84rem;
-      padding-left:  calc(32.48 / 16 * 1rem);
+      padding-inline-start:  calc(32.48 / 16 * 1rem);
       align-items: center;
       gap: 2.34rem;
 
     }
 
     .rating:nth-child(2){
-        margin-left: calc(48 / 16 * 1rem);
+        margin-inline-start: calc(48 / 16 * 1rem);
     }
 
     .rating:nth-child(3){
-        margin-left:  calc(92.48 / 16 * 1rem);
+        margin-inline-start:  calc(92.48 / 16 * 1rem);
     }
 
     .star-icons{
@@ -276,7 +276,7 @@ body{
         align-items: start;
         padding:  calc(35.52 / 16 * 1rem);
         gap: 1.875rem;
-        margin-top: 0;
+        margin-block-start: 0;
         height: 100%;
     }
 
@@ -287,15 +287,15 @@ body{
     }
 
     .testimony:nth-child(2){
-        margin-top:  calc(16 / 16 * 1rem);
+        margin-block-start:  calc(16 / 16 * 1rem);
     }
 
     .testimony:nth-child(3){
-        margin-top: calc(32.48 / 16 * 1rem);
+        margin-block-start: calc(32.48 / 16 * 1rem);
     }
 
     .buyer-container{
-        margin-top: calc(7.52 / 16 * 1rem);
+        margin-block-start: calc(7.52 / 16 * 1rem);
         gap:1.25rem;
     }
 }
