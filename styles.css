@@ -30,6 +30,7 @@
   --neutral-white:hsl(0, 0%, 100%);
   --font-size:0.925rem;
   --font-family: 'League Spartan', sans-serif;
+  --spacing-xs: 4.06rem;
 }
 
 /* || RESET */
@@ -91,8 +92,8 @@ body {
   width: 23.44rem;
   padding: 1.25rem;
   gap: 1.875rem;
-  margin-top: 4.06rem;
-  margin-bottom: 4.06rem;
+  margin-top: calc(var(--spacing-xs) + 1rem);
+  margin-bottom: calc(var(--spacing-xs) + 1rem);
 }
 
 .heading-paragraph-container {
@@ -103,9 +104,9 @@ body {
 .heading {
   color: var(--primary-very-dark-magenta);
   text-align: center;
-  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-size: clamp(2.4rem, 1.033vw + 2.013rem, 3.5rem);
   line-height: 0.8em;
-  margin-bottom: 1.4rem;
+  margin-bottom: calc(1.4rem + 0.5vw);
 }
 
 .paragraph {
@@ -114,7 +115,7 @@ body {
   text-align: center;
   line-height: 1.4em;
   font-size: 1.1rem;
-  margin-top: 0.19rem;
+  margin-top: 0.39rem;
 }
 
 .ratings-container {
@@ -206,8 +207,8 @@ body {
 @media (min-width: 70rem) {
   body {
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-    background-position: top left, bottom right;
-    background-size: 49.5%, 55%;
+    background-position: top left, bottom -11rem right -12rem;
+    background-size: 49.5%, 100%;
   }
   .parent-container {
     display: grid;
@@ -245,10 +246,10 @@ body {
     height: 3.56rem;
     flex-direction: row;
     justify-content: start;
+    width: 27.84rem;
     padding-left: 2.03rem;
     align-items: center;
     gap: 2.34rem;
-    width: 27.84rem;
   }
   #rating-2 {
     margin-left: 3rem;
@@ -264,7 +265,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    padding: 2.219rem;
+    padding: 2.22rem;
     gap: 1.875rem;
     margin-top: 0;
     height: 100%;
