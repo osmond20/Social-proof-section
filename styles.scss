@@ -91,7 +91,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 23.44rem;
-    padding: 1.25rem;
+    padding: calc(20 / 16 * 1rem);
     gap: 1.875rem;
     margin-block: calc(var(--spacing-xs) + 1rem);
 }

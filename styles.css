@@ -105,7 +105,7 @@ body {
   text-align: center;
   font-size: clamp(2.4rem, 1.033vw + 2.013rem, 3.5rem);
   line-height: 0.8em;
-  margin-bottom: calc(1.4rem + 0.5vw);
+  margin-block: calc(1.4rem + 0.5vw);
 }
 
 .paragraph {
@@ -273,10 +273,10 @@ body {
     width: 21.875rem;
     padding: 2.1875rem;
   }
-  #testimony-2 {
+  .testimony:nth-child(2) {
     margin-top: 1rem;
   }
-  #testimony-3 {
+  .testimony:nth-child(3) {
     margin-top: 2.03rem;
   }
   .buyer-container {
